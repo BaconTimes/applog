@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'applog'
-  s.version          = '0.0.1'
+  s.name             = 'AppLogo'
+  s.version          = '0.0.2'
   s.summary          = 'app log.'
 
 # This description is used to generate tags and improve search results.
