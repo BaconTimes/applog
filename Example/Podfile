@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'applog_Example' do
+  pod 'applog', :path => '../'
+  pod 'NSLogger'
+  target 'applog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
