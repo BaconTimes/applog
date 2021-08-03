@@ -15,7 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [[AppLogManager shareManger] setBaseUrl:@"http://lifedream.top:6004/flow"];
+    [[AppLogManager shareManger] setBaseUrl:@"your base url"];
     ALog(@"%@ 124535", launchOptions);
     return YES;
 }
