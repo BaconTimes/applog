@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-app log
+app log lib, requests are made, and datas was passed to the backend through http
                        DESC
 
-  s.homepage         = 'https://github.com/804258952@qq.com/applog'
+  s.homepage         = 'https://github.com/BaconTimes/applog.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bacon' => 'ch3coohna@qq.com' }
   s.source           = { :git => 'https://github.com/BaconTimes/applog.git', :tag => s.version.to_s }
