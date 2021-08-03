@@ -46,10 +46,10 @@
     if (deviceName != nil) {
         [infoDict setObject:deviceName forKey:@"DeviceName"];
     }
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    if (infoDictionary != nil) {
-        [infoDict setObject:infoDictionary forKey:@"BundleInformation"];
-    }
+    // NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    // if (infoDictionary != nil) {
+    //     [infoDict setObject:infoDictionary forKey:@"BundleInformation"];
+    // }
     NSString *UUIDString = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     if (UUIDString != nil) {
         [infoDict setObject:UUIDString forKey:@"UUID"];
