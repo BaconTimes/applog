@@ -62,8 +62,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FA6E64845097AD5CC53EA48 /* Pods_applog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_applog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51F10522D24C4F9ACED1418 /* applog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = applog.podspec; path = ../applog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5D4D360F6C1E017E8ED9512 /* Pods-applog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-applog_Tests.release.xcconfig"; path = "Target Support Files/Pods-applog_Tests/Pods-applog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D175A12626B915C400DED7C6 /* AppLogo.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = AppLogo.podspec; path = ../AppLogo.podspec; sourceTree = "<group>"; };
 		E5D17EE21E81E686C194E415 /* Pods_applog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_applog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FE3277FBD97D3727971939 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FE013C2152C382962F4F2DB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A51F10522D24C4F9ACED1418 /* applog.podspec */,
+				D175A12626B915C400DED7C6 /* AppLogo.podspec */,
 				F7FE3277FBD97D3727971939 /* README.md */,
 				FE013C2152C382962F4F2DB2 /* LICENSE */,
 			);
