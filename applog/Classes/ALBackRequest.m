@@ -11,7 +11,8 @@
 #import <sys/utsname.h>
 
 @implementation ALBackRequest
-+ (void)testRequestParams:(id)params {
+
++ (void)testRequestParams:(id)params completion:(void (^)(void))completion {
     NSString *baseUrl = [AppLogManager shareManger].baseUrl;
     if (baseUrl == nil) {
         baseUrl = @"https://httpbin.org/post";
@@ -32,8 +33,15 @@
     //把拼接后的字符串转换为data，设置请求体
     request.HTTPBody=data;
     [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        NSLog(@"response = %@\n error = %@", response, error);
+        if (completion) {
+            completion();
+        }
+//        NSLog(@"response = %@\n error = %@", response, error);
     }] resume] ;
+}
+
++ (void)testRequestParams:(id)params {
+    [self testRequestParams:params completion:NULL];
 }
 
 + (NSMutableDictionary *)getPhoneInfo {

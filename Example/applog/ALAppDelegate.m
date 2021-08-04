@@ -7,8 +7,8 @@
 //
 
 #import "ALAppDelegate.h"
-#import <applog/ALog.h>
-#import <applog/AppLogManager.h>
+#import <AppLogo/ALog.h>
+#import <AppLogo/AppLogManager.h>
 
 @implementation ALAppDelegate
 

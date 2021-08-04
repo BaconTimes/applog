@@ -12,4 +12,6 @@
 
 + (void)testRequestParams:(id )params;
 
++ (void)testRequestParams:(id )params completion:(void (^)(void))completion;
+
 @end
